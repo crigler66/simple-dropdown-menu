@@ -1,0 +1,28 @@
+.field {
+  display: flex;
+  flex-flow: column;
+}
+
+.field_label {
+  font-size: 2rem;
+  color: green;
+}
+
+.field_dropdown {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  color: #1a1a1a;
+  min-width: 25rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.25rem solid #d01ec2;
+  box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.05);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: none;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 1.8rem;
+  background-position: center right 1em;
+}
